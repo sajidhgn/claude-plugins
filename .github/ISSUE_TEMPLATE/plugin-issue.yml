@@ -1,0 +1,66 @@
+name: Plugin issue
+description: Something a plugin did wrong, or could do better.
+title: "[fullstack-ai-dev] "
+labels: ["plugin-issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Write it down while it's fresh. **Don't paste client messages, passwords, or API keys** — paraphrase instead.
+  - type: dropdown
+    id: part
+    attributes:
+      label: Which part?
+      options:
+        - intake (client request → tasks)
+        - run-tasks (planning / implementing)
+        - detect-stack
+        - smoke-test / smoke-tester agent
+        - safety hooks (guard / stop gate)
+        - not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Plugin version
+      description: From `claude plugin details fullstack-ai-dev`
+      placeholder: "0.3.1"
+    validations:
+      required: true
+  - type: textarea
+    id: asked
+    attributes:
+      label: What did you ask?
+      description: The prompt or command, as close to exact as possible.
+    validations:
+      required: true
+  - type: textarea
+    id: did
+    attributes:
+      label: What did the plugin do?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Blocked my work
+        - Wrong result I had to fix
+        - Slow or annoying
+        - Idea / improvement
+    validations:
+      required: true
+  - type: checkboxes
+    id: eval
+    attributes:
+      label: Before fixing
+      options:
+        - label: An eval case in `evals/` reproduces this (so the fix can be proven and won't regress)

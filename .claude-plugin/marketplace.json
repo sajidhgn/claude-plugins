@@ -1,0 +1,17 @@
+{
+  "name": "raw-studio",
+  "owner": {
+    "name": "Raw Studio"
+  },
+  "metadata": {
+    "description": "Claude Code plugins built and maintained by Raw Studio."
+  },
+  "plugins": [
+    {
+      "name": "fullstack-ai-dev",
+      "source": "./plugins/fullstack-ai-dev",
+      "description": "Senior full-stack AI developer: client intake with approval, stack detection, role-based implementation, client-perspective smoke testing, fix loop, and delivery notes.",
+      "category": "development"
+    }
+  ]
+}
