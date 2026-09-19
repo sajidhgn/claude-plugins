@@ -1,10 +1,11 @@
 {
-  "name": "raw-studio",
+  "name": "sajidhgn",
   "owner": {
-    "name": "Raw Studio"
+    "name": "sajidhgn",
+    "url": "https://github.com/sajidhgn"
   },
   "metadata": {
-    "description": "Claude Code plugins built and maintained by Raw Studio."
+    "description": "Claude Code plugins by sajidhgn."
   },
   "plugins": [
     {
