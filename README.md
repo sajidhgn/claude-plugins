@@ -1,4 +1,4 @@
-# Raw Studio — Claude Code plugins
+# Sajidhgn — Claude Code plugins
 
 A private plugin marketplace for Claude Code (CLI and VS Code).
 
