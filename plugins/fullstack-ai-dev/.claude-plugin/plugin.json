@@ -1,10 +1,11 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "fullstack-ai-dev",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Senior full-stack AI developer that turns client requests into approved task files, then executes them end to end: detects the project's stack, assigns the best specialist role per task, implements, smoke-tests the running app as a real client with realistic data, fixes what breaks, and writes a developer report plus a client delivery note.",
   "author": {
-    "name": "Rawbit"
+    "name": "sajidhgn",
+    "url": "https://github.com/sajidhgn"
   },
   "keywords": [
     "fullstack",

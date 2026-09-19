@@ -1,4 +1,4 @@
-# Raw Studio — Claude Code plugins
+# sajidhgn — Claude Code plugins
 
 A private plugin marketplace for Claude Code (CLI and VS Code).
 
@@ -15,7 +15,7 @@ This repo is private, so Claude Code clones it with your own git access. Make su
 **CLI:**
 ```text
 /plugin marketplace add sajidhgn/claude-plugins
-/plugin install fullstack-ai-dev@raw-studio
+/plugin install fullstack-ai-dev@sajidhgn
 ```
 
 If you installed the plugin earlier by unzipping it into `~/.claude/skills/fullstack-ai-dev`, delete that folder after installing from here, so only one copy loads.
@@ -23,7 +23,7 @@ If you installed the plugin earlier by unzipping it into `~/.claude/skills/fulls
 ## Update
 
 ```text
-/plugin marketplace update raw-studio
+/plugin marketplace update sajidhgn
 ```
 Then reload (`/reload-plugins`, or **Developer: Reload Window** in VS Code). Claude Code detects updates by the version in `plugin.json`, so every change needs a version bump.
 

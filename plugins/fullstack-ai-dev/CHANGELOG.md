@@ -2,6 +2,9 @@
 
 Version lives in `.claude-plugin/plugin.json`. Bump it with every change — Claude Code uses it to detect updates.
 
+## 0.3.2 — 2026-09-18
+- Changed: author and marketplace are now `sajidhgn`. Install with `/plugin install fullstack-ai-dev@sajidhgn`.
+
 ## 0.3.1 — 2026-09-18
 - Fixed: `detect-stack` missed Python dependencies written as a single-line array in `pyproject.toml`; it now also lists dependency-group (dev) packages. Caught by the new free tests.
 
